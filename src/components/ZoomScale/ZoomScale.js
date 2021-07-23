@@ -49,7 +49,7 @@ class ZoomScale extends Component {
         />
         <input
           type="range"
-          className={stylesheet["zoom-scale__handler"]}
+          className={`${stylesheet["zoom-scale__handler"]} form-range`}
           max={Number(this.props.max).toFixed(2)}
           min={Number(this.props.min).toFixed(2)}
           step={Number(this.props.step).toFixed(2)}
